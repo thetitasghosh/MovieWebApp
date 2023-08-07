@@ -1,8 +1,8 @@
 // "use client"
 import React from "react";
-import Link from "next/link";
+
 import MovieCard from "../components/MovieCard";
-import style from "../styles/card.module.css"
+import style from "../Styles/card.module.css"
 
 const Movie = async () => {
 
