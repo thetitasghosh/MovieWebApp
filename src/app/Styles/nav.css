@@ -1,0 +1,38 @@
+nav ul li{
+    list-style: none;
+    font-size: 1.5vw;
+    & :hover{
+        color: rgb(109, 13, 13);
+    }
+}
+nav .logo{
+    font-size: 2vw;
+    font-weight: bold;
+    & :hover{
+        color: rgb(109, 13, 13);
+    }
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0% 10%;
+    height: 8vh;
+    width: 100%;
+    color: black;
+    background-color: aliceblue;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+nav .menu ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 3vw;
+    align-items: center;
+   
+}
