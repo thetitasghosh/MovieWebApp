@@ -1,11 +1,8 @@
 import React from "react";
-<<<<<<< HEAD
-import style from "../";
-=======
 import style from "../Styles/card.module.css";
->>>>>>> a20c1f5cde16e52ecfe9f7636236b43b2da189a5
 import Link from "next/link";
 import Image from "next/image";
+
 const MovieCard = (movieElm) => {
   const { id, title, type, synopsis } = movieElm.jawSummary;
   return (
