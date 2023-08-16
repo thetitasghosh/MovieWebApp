@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../styles/card.module.css";
+import style from "../Styles/card.module.css";
 import Link from "next/link";
 import Image from "next/image";
 const MovieCard = (movieElm) => {
